@@ -1,5 +1,18 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="66" inline="false" x="105" y="27">
+  <block type="controls_whileUntil" id="274" inline="false" x="95" y="34">
+    <field name="MODE">UNTIL</field>
+    <value name="NUMBER">
+      <block type="sensor_button" id="281">
+        <field name="OBJECT">ENTER</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="multimedia_playwav" id="285">
+        <field name="WAV">0</field>
+      </block>
+    </statement>
+  </block>
+  <block type="controls_whileUntil" id="66" inline="false" x="110" y="202">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="134">
