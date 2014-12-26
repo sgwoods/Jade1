@@ -54,6 +54,32 @@
                                         <field name="NUM">1000</field>
                                       </block>
                                     </value>
+                                    <next>
+                                      <block type="movement_left" id="104">
+                                        <next>
+                                          <block type="robot_delay" id="107" inline="true">
+                                            <value name="DELAY">
+                                              <block type="math_number" id="108">
+                                                <field name="NUM">1000</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="movement_right" id="109">
+                                                <next>
+                                                  <block type="robot_delay" id="105" inline="true">
+                                                    <value name="DELAY">
+                                                      <block type="math_number" id="106">
+                                                        <field name="NUM">1000</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
