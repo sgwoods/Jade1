@@ -37,20 +37,20 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_forward" id="53">
+                      <block type="movement_left" id="82">
                         <next>
-                          <block type="robot_delay" id="60" inline="true">
+                          <block type="robot_delay" id="83" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="72">
+                              <block type="math_number" id="84">
                                 <field name="NUM">1000</field>
                               </block>
                             </value>
                             <next>
-                              <block type="movement_left" id="82">
+                              <block type="movement_forward" id="53">
                                 <next>
-                                  <block type="robot_delay" id="83" inline="true">
+                                  <block type="robot_delay" id="60" inline="true">
                                     <value name="DELAY">
-                                      <block type="math_number" id="84">
+                                      <block type="math_number" id="72">
                                         <field name="NUM">1000</field>
                                       </block>
                                     </value>
