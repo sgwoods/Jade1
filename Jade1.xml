@@ -8,7 +8,7 @@
     </value>
     <statement name="DO">
       <block type="multimedia_playwav" id="285">
-        <field name="WAV">0</field>
+        <field name="WAV">smb_1up.wav</field>
       </block>
     </statement>
     <next>
