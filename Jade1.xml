@@ -15,24 +15,19 @@
                             <next>
                               <block type="movement_reverse" id="134">
                                 <next>
-                                  <block type="led_select" id="149" inline="true">
-                                    <field name="ACTION">ON</field>
+                                  <block type="oled_cleardisplay" id="175">
                                     <next>
-                                      <block type="oled_cleardisplay" id="175">
+                                      <block type="oled_drawtext" id="158">
+                                        <field name="TEXT">Hello there</field>
                                         <next>
-                                          <block type="oled_drawtext" id="158">
-                                            <field name="TEXT">Hello there</field>
+                                          <block type="multimedia_volume" id="200">
+                                            <field name="VOLUME">MEDIUM</field>
                                             <next>
-                                              <block type="multimedia_volume" id="200">
-                                                <field name="VOLUME">MEDIUM</field>
+                                              <block type="multimedia_playwav" id="193">
+                                                <field name="WAV"></field>
                                                 <next>
-                                                  <block type="multimedia_playwav" id="193">
-                                                    <field name="WAV"></field>
-                                                    <next>
-                                                      <block type="multimedia_volume" id="204">
-                                                        <field name="VOLUME">MUTE</field>
-                                                      </block>
-                                                    </next>
+                                                  <block type="multimedia_volume" id="204">
+                                                    <field name="VOLUME">MUTE</field>
                                                   </block>
                                                 </next>
                                               </block>
