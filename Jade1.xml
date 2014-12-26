@@ -7,6 +7,18 @@
       </block>
     </value>
     <statement name="DO">
+      <block type="procedures_callnoreturn" id="103">
+        <mutation name="attack"></mutation>
+      </block>
+    </statement>
+    <next>
+      <block type="movement_stop" id="15"></block>
+    </next>
+  </block>
+  <block type="procedures_defnoreturn" id="94" x="81" y="112">
+    <mutation></mutation>
+    <field name="NAME">attack</field>
+    <statement name="STACK">
       <block type="movement_forward" id="6">
         <next>
           <block type="robot_delay" id="7" inline="true">
@@ -58,8 +70,5 @@
         </next>
       </block>
     </statement>
-    <next>
-      <block type="movement_stop" id="15"></block>
-    </next>
   </block>
 </xml>
