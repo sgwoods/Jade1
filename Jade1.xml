@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="1" inline="false" x="78" y="-37">
+  <block type="controls_whileUntil" id="1" inline="false" x="119" y="-225">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="2">
@@ -15,7 +15,7 @@
       <block type="movement_stop" id="4"></block>
     </next>
   </block>
-  <block type="procedures_defnoreturn" id="5" x="79" y="88">
+  <block type="procedures_defnoreturn" id="5" x="108" y="-86">
     <mutation></mutation>
     <field name="NAME">attack</field>
     <statement name="STACK">
