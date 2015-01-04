@@ -1,21 +1,21 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="4" inline="false" x="78" y="-37">
+  <block type="controls_whileUntil" id="1" inline="false" x="78" y="-37">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="sensor_button" id="5">
+      <block type="sensor_button" id="2">
         <field name="OBJECT">ENTER</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="procedures_callnoreturn" id="103">
+      <block type="procedures_callnoreturn" id="3">
         <mutation name="attack"></mutation>
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="15"></block>
+      <block type="movement_stop" id="4"></block>
     </next>
   </block>
-  <block type="procedures_defnoreturn" id="94" x="81" y="112">
+  <block type="procedures_defnoreturn" id="5" x="79" y="88">
     <mutation></mutation>
     <field name="NAME">attack</field>
     <statement name="STACK">
@@ -37,38 +37,38 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_left" id="82">
+                      <block type="movement_left" id="12">
                         <next>
-                          <block type="robot_delay" id="83" inline="true">
+                          <block type="robot_delay" id="13" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="84">
+                              <block type="math_number" id="14">
                                 <field name="NUM">1000</field>
                               </block>
                             </value>
                             <next>
-                              <block type="movement_forward" id="53">
+                              <block type="movement_forward" id="15">
                                 <next>
-                                  <block type="robot_delay" id="60" inline="true">
+                                  <block type="robot_delay" id="16" inline="true">
                                     <value name="DELAY">
-                                      <block type="math_number" id="72">
+                                      <block type="math_number" id="17">
                                         <field name="NUM">1000</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="movement_left" id="104">
+                                      <block type="movement_left" id="18">
                                         <next>
-                                          <block type="robot_delay" id="107" inline="true">
+                                          <block type="robot_delay" id="19" inline="true">
                                             <value name="DELAY">
-                                              <block type="math_number" id="108">
+                                              <block type="math_number" id="20">
                                                 <field name="NUM">1000</field>
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="movement_right" id="109">
+                                              <block type="movement_right" id="21">
                                                 <next>
-                                                  <block type="robot_delay" id="105" inline="true">
+                                                  <block type="robot_delay" id="22" inline="true">
                                                     <value name="DELAY">
-                                                      <block type="math_number" id="106">
+                                                      <block type="math_number" id="23">
                                                         <field name="NUM">1000</field>
                                                       </block>
                                                     </value>
